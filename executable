@@ -35,7 +35,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rHacking in the Genting server for next colour--------- ' + c)
+                sys.stdout.write('\rHacking in the IQ server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -54,7 +54,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
                     break
-                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                sys.stdout.write('\rgetting the Result wait --------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -81,13 +81,13 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet GentingMall'
+    banner='figlet IQOPTION'
     numbers=[]
     while(y):
         clear()
         system(banner)
         print(f"{red}Contact me on telegram @IDFCMONEY")
-        print(f"{yellow}Enter ",newperiod, f"{green}Emerd {yellow}Price :{nc}")
+        print(f"{yellow}Enter ",newperiod, f"{green}Crypto {yellow}Code :{nc}")
         current=input()
         current=int(current)
         chalo()
@@ -101,18 +101,18 @@ def hero():
             sum=getSum(current)
             if(sum%2==0):
                 print("Play 100-1000")
-                print(newperiod+1," : 💥🔥💥🔴RED🔴💥🔥💥")
+                print(newperiod+1," : 💥🔥💥🔴CALL🔴💥🔥💥")
             else:
                 print("Play 10-100")
-                print(newperiod+1,"  : 💥🔥💥🟢GREEN🟢💥🔥💥")
+                print(newperiod+1,"  : 💥🔥💥🟢PUT🟢💥🔥💥")
         else:
             sum=getSum(current)
             if(sum%2==0):
                 print("Play 100-1000")
-                print(newperiod+1,"   : 💥🔥💥🟢GREEN🟢💥🔥💥")
+                print(newperiod+1,"   : 💥🔥💥🟢PUT🟢💥🔥💥")
             else:
                 print("Play 10-100")
-                print(newperiod+1,"   : 💥🔥💥🔴RED🔴💥🔥💥")
+                print(newperiod+1,"   : 💥🔥💥🔴CALL🔴💥🔥💥")
         newperiod+=1
         numbers.append(current)
         y=input(f"Do you want to play : {green}Press 1 , {neon}or {red}0 to exit{nc} \n")
@@ -209,8 +209,8 @@ else:
     print(" 3.   50,000 INR -------  6 Month(10,000 +Games)")
     print(f"{green}You Can Recharge And Activate Your Hack Directly")
     print("By Paying Here To Me To the Below Upi Id")
-    print(f"{red}Upi-1: {green}  -----  {yellow}  manju.d.prabhu@okicici")
-    print(f"{red}Upi-2: {green}  -----  {yellow}  IDFC707@pockets")
+    print(f"{red}Upi-1: {green}  -----  {yellow}  gokulmacro@oksbi")
+    print(f"{red}Upi-2: {green}  -----  {yellow}  DM ")
     print(f"{green}Always Prefer The 1st UPI Id As The Second One is low success Rate")
     print(f"{neon}*---------*----------*--------*---------*--------*")
     print(f"{green}Your custom hack can be made request from us.")
